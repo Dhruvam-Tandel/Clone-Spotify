@@ -1,0 +1,113 @@
+@media screen and (max-width:1320px) {
+    .playlist .cards1,.playlist .cards,.playlist .cards2{
+        grid-template-columns: repeat(4,220px);
+    }
+}
+@media screen and (max-width:1260px) {
+    .footer-section .footer-iner .footer-link{
+        grid-template-columns: repeat(3,auto);
+    }
+}
+@media screen and (max-width:1120px) {
+    .playlist .cards1,.playlist .cards,.playlist .cards2{
+        grid-template-columns: repeat(3,220px);
+    }
+}
+@media screen and (max-width:1075px) {
+    .footer-section .footer-iner .footer-link{
+        grid-template-columns: repeat(2,auto);
+    }
+}
+@media screen and (max-width:893px) {
+    .playlist .cards1,.playlist .cards,.playlist .cards2{
+        grid-template-columns: repeat(2,220px);
+    }
+    .footer-section .footer-iner .footer-link{
+        grid-template-columns: repeat(1,auto);
+    }
+}
+@media screen and (max-width:705px) {
+    .playlist .cards1,.playlist .cards,.playlist .cards2{
+        grid-template-columns: repeat(1,220px);
+    }
+    .footer-section .footer-iner {
+        padding: 10px;
+        grid-template-columns: repeat(1,auto);
+    }
+}
+@media screen and (max-width:646px) {
+    .main-section .top-bar {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .preview {
+        grid-template-columns: repeat(1,auto);
+    }
+}
+@media screen and (max-width:580px) {
+    .sidebar{
+        width: 250px;
+    }
+    .sidbar-scrollbar{
+        height: 100px;
+    }
+    .main-section{
+        margin-left: 250px;
+        height: 100%;
+        margin-bottom: 0px;
+    }
+    .eng-but button{
+        margin-bottom: 40px;
+    }
+}
+@media screen and (max-width:575px){
+    .preview{
+        display: none;
+    }
+}
+@media screen and (max-width:500px) {
+    .sidebar{
+        width: 200px;
+    }
+    .main-section{
+        margin-left: 200px;
+    }
+}
+@media screen and (max-width:450px) {
+    .sidebar{
+        position: relative;
+        width: 400px;
+    }
+    /* .sidebar .sidebar-navi{
+        position: fixed;
+        top: -100;
+    } */
+    .main-section{
+        width: 400px;
+        margin-right: 0px;
+        margin-left: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .main-section .top-bar{
+        width: auto;
+        padding-left: 80px;
+    }
+    .playlist{
+        margin-left: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width:200px) {
+
+    .main-section{
+        height: auto;
+    }
+
+}
+
+
+
